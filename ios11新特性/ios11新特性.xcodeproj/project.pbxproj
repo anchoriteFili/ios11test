@@ -15,6 +15,7 @@
 		FA6B60561F8C92AC00F01A19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B60551F8C92AC00F01A19 /* main.m */; };
 		FA6B60601F8C92AC00F01A19 /* ios11___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B605F1F8C92AC00F01A19 /* ios11___Tests.m */; };
 		FA6B606B1F8C92AC00F01A19 /* ios11___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B606A1F8C92AC00F01A19 /* ios11___UITests.m */; };
+		FA6B607A1F8C9A5700F01A19 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6B60791F8C9A5700F01A19 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FA6B60661F8C92AC00F01A19 /* ios11新特性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios11新特性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6B606A1F8C92AC00F01A19 /* ios11___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ios11___UITests.m"; sourceTree = "<group>"; };
 		FA6B606C1F8C92AC00F01A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B60781F8C9A5700F01A19 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FA6B60791F8C9A5700F01A19 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FA6B60471F8C92AC00F01A19 /* AppDelegate.m */,
 				FA6B60491F8C92AC00F01A19 /* ViewController.h */,
 				FA6B604A1F8C92AC00F01A19 /* ViewController.m */,
+				FA6B60781F8C9A5700F01A19 /* SecondViewController.h */,
+				FA6B60791F8C9A5700F01A19 /* SecondViewController.m */,
 				FA6B604C1F8C92AC00F01A19 /* Main.storyboard */,
 				FA6B604F1F8C92AC00F01A19 /* Assets.xcassets */,
 				FA6B60511F8C92AC00F01A19 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6B607A1F8C9A5700F01A19 /* SecondViewController.m in Sources */,
 				FA6B604B1F8C92AC00F01A19 /* ViewController.m in Sources */,
 				FA6B60561F8C92AC00F01A19 /* main.m in Sources */,
 				FA6B60481F8C92AC00F01A19 /* AppDelegate.m in Sources */,
@@ -431,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7LJJLZ2XH6;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				INFOPLIST_FILE = "ios11新特性/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lvyouquan.ios11---";
@@ -445,7 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7LJJLZ2XH6;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
 				INFOPLIST_FILE = "ios11新特性/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lvyouquan.ios11---";
